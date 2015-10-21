@@ -1,0 +1,123 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AFBAFC7D1BD8111000375AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFBAFC781BD8110F00375AE9 /* MySharedFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AFBAFC5E1BD8110F00375AE9;
+			remoteInfo = MySharedFramework;
+		};
+		AFBAFC7F1BD8111000375AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFBAFC781BD8110F00375AE9 /* MySharedFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AFBAFC681BD8110F00375AE9;
+			remoteInfo = MySharedFrameworkTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFBAFC781BD8110F00375AE9 /* MySharedFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MySharedFramework.xcodeproj; path = MySharedFramework/MySharedFramework.xcodeproj; sourceTree = "<group>"; };
+		AFBAFC831BD8118800375AE9 /* ThePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThePlayground.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AFBAFC4D1BD810D400375AE9 = {
+			isa = PBXGroup;
+			children = (
+				AFBAFC831BD8118800375AE9 /* ThePlayground.playground */,
+				AFBAFC781BD8110F00375AE9 /* MySharedFramework.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		AFBAFC791BD8110F00375AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFBAFC7E1BD8111000375AE9 /* MySharedFramework.framework */,
+				AFBAFC801BD8111000375AE9 /* MySharedFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		AFBAFC4E1BD810D400375AE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+			};
+			buildConfigurationList = AFBAFC511BD810D400375AE9 /* Build configuration list for PBXProject "PlaygroundTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFBAFC4D1BD810D400375AE9;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AFBAFC791BD8110F00375AE9 /* Products */;
+					ProjectRef = AFBAFC781BD8110F00375AE9 /* MySharedFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AFBAFC7E1BD8111000375AE9 /* MySharedFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MySharedFramework.framework;
+			remoteRef = AFBAFC7D1BD8111000375AE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AFBAFC801BD8111000375AE9 /* MySharedFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MySharedFrameworkTests.xctest;
+			remoteRef = AFBAFC7F1BD8111000375AE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		AFBAFC521BD810D400375AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		AFBAFC531BD810D400375AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFBAFC511BD810D400375AE9 /* Build configuration list for PBXProject "PlaygroundTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBAFC521BD810D400375AE9 /* Debug */,
+				AFBAFC531BD810D400375AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFBAFC4E1BD810D400375AE9 /* Project object */;
+}
