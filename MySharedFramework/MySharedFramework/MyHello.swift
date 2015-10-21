@@ -10,6 +10,6 @@ import Foundation
 
 public class MyHello {
     public class func aHello() -> String {
-        return "Hello Stranger"
+        return "Hello from Swift"
     }
 }

@@ -11,7 +11,7 @@
 @implementation OldFashionObjCHello
 
 + (NSString *)helloString {
-    return @"ObjC Hello";
+    return @"Old Fashion ObjC Hello";
 }
 
 @end
