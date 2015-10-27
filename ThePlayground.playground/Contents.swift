@@ -7,3 +7,5 @@ var str = "Hello, playground"
 print(str)
 print(MyHello.aHello())
 print(OldFashionObjCHello.helloString())
+
+print("new line")
